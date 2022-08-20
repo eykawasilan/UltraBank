@@ -1034,9 +1034,6 @@ Left Menu Style
 
 .left-menubox {
     background: #4da6e7;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 .left-menu {
@@ -1075,6 +1072,13 @@ Left Menu Style
 }
 
 @media (max-width: 767px) {
+    .left-menubox {
+        background: #4da6e7;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
     .left-menu {
         display: flex;
         overflow: scroll;
