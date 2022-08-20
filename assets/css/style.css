@@ -1035,8 +1035,6 @@ Left Menu Style
 
 .left-menubox {
     background: #4da6e7;
-    display: flex;
-    overflow-x: scroll;
 }
 
 .left-menu {
