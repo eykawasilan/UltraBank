@@ -339,7 +339,7 @@ body {
     cursor: pointer;
     width: 51px;
     height: 51px;
-    padding: 0 16px;
+    padding: 0 .5em;
     border-radius: 4px;
 }
 
@@ -1078,10 +1078,7 @@ Left Menu Style
     .left-menubox {
         bottom: 0;
         background: #4da6e7;
-        position: fixed;
-        z-index: 9999;
-        overflow: visible;
-        flex-wrap: wrap;
+        z-index: 99999;
     }
 
     .left-menu {
