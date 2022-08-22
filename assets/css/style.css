@@ -790,8 +790,23 @@ header
 }
 
 @media (max-width: 767px) {
+    .pre-header ul.info li {
+        margin-left: 12px;
+    }
+
+    .pre-header ul.info li a {
+        color: #fff;
+        font-size: 11px;
+        transition: all .3s;
+    }
+
+    .pre-header ul.info li a i {
+        font-size: 13px;
+        margin-right: 6px;
+    }
+
     .pre-header ul.info li:last-child {
-        display: none;
+        display: inline-block;
     }
 
     .background-header .main-nav .nav {
